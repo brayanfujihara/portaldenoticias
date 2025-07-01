@@ -1,0 +1,61 @@
+h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+form {
+  max-width: 300px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #555;
+}
+
+input.form-control {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #4a90e2;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #357dc0;
+}
+
+form div[ng-reflect-ng-if] {
+  color: red;
+  margin-top: 1rem;
+  text-align: center;
+}
